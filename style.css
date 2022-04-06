@@ -1,0 +1,838 @@
+@import url(//https://www.db.onlinewebfonts.com/c/7ca20c0818f170b89e9101bd2d04f470?family=Romain+BP+Headline+Regular);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Suisse Intl";
+}
+html{
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+}
+body{
+    color: #f9d8ae;
+    margin: 2rem 0 0 0;
+    background-color: #fff;
+    
+}
+
+header {
+    background-color: #141618;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#back{
+    width: 100%;
+    margin: 0 auto;
+}
+p{
+    font-family: "Suisse Intl";
+}
+a{
+    text-decoration: none;
+}
+h1{
+    font-size: 86px;
+    position: relative;
+    font-weight: 100;
+    top: 100px;
+    right: 170px;
+    letter-spacing: -2;
+    font-family: "Romain BP Headline Regular";
+    
+}
+.nav-bar{
+    height: calc(4rem + 1rem);
+    box-shadow: 0px 7px 7px 0px rgba(0,0,0,0.05);
+    display: flex;
+    justify-content: space-between;
+    background: #f9d8ae;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+	position: fixed;
+	top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+.logo{
+    color: #f9d8ae;
+    font-size: 1.6em;
+    font-weight: 600;
+    margin-left: 30px;
+}
+#logoS{
+    width: 100px;
+    margin-left: -400px;
+    height: 100%;
+}
+.nav-items a{
+    color:  #f9d8ae;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #141618;
+    font-family: "Suisse Intl";
+    position: relative;
+    right: 200px;
+    
+}
+.nav-items a:not(:last-child){
+    margin-right: 50px;
+}
+.nav-items a:hover{
+    color: #818181;
+}
+.button-1 {
+    position: relative;
+    color: #141618;
+}
+.button-1::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    height: 2px;
+    width: 0;
+    background-color: currentColor;
+    transition: all 0.3s ease;
+}
+.button-1:hover::before {
+    width: 100%;
+}
+#luxury {
+    line-height: 0.7;
+}
+
+
+.home img {
+    max-width: 90%;
+    position: relative;
+    left: 400px;
+    top: 40px;
+    z-index: 2;
+}
+
+.title p {
+    text-transform: uppercase;
+    font-size: 12px;
+    color:  #f8ecdcb7;
+    position: relative;
+    top: 168px;
+    left: -160px;
+    letter-spacing: 5px;
+}
+
+.button-2 {
+    position: relative;
+    z-index: 10;
+    padding: 15px 50px;
+    color: #141618;
+    background-color: #f9d8ae;
+    border: 1px solid #f9d8ae;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    top: 220px;
+    right: 160px;
+}
+
+.button-2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background-color: #141618;
+    transition: all .3s ease;
+}
+.button-2:hover span {
+    position: relative;
+    color: #f9d8ae;
+    z-index: 2;
+}
+.button-2:hover::before {
+    width: 100%;
+}
+.button-3 {
+    position: relative;
+    z-index: 10;
+    padding: 15px 50px;
+    color: #f9d8ae;
+    background-color: transparent;
+    border: 1px solid #f9d8ae;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    top: 220px;
+    right: 150px;
+}
+.info {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 20fr 80fr;
+    grid-template-rows: 80fr 20fr;
+}
+    
+.lokacioni { 
+    grid-area: 1 / 1 ; 
+    border-top: 0.5px solid white;
+    background-color: #141618;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 10px;
+    
+}
+
+.lokacioni h2 {
+    text-transform: uppercase;
+    font-size: 12px;
+    color: white;
+    margin-bottom: 10px;
+    margin-right: 6px;
+}
+
+.lokacioni p {
+    text-align: left;
+    font-size: 12px;
+    margin-left: 20px;
+    letter-spacing: 1.5px;
+    padding: 5px;
+}
+
+.lokacioni-info { 
+    grid-area: 1 / 2 / 6 / 6; 
+    background-color: white;
+    margin-left: 200px;
+}
+
+
+.lokacioni-info h1 {
+    font-family: "Romain BP Headline Regular";
+    color: #141618;
+    font-size: 86px;
+    position: relative;
+    left: 45px;
+    top: -715px;
+}
+
+.lokacioni-info p {
+    font-family: "Romain BP Headline Regular";
+    color: #1416188f;
+    position: relative;
+    top: -725px;
+    left: 50px;
+    
+}
+
+.container-3 {
+        height: 80vh;
+        background-color: white;
+        display: grid;
+        grid-template-columns: 30fr 70fr;
+        gap: 50px;
+        width: 1400px;
+        padding: 10px;
+        margin: 200px 100px;
+}
+
+.dhoma-info {
+        border-top: 0.5px solid white;
+        background-color: #141618;
+        padding: 10px;
+}
+
+.dhoma-foto img {
+    width: 100%;
+    height: 100%;
+}
+
+.suite-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    Font-family: "Romain BP Headline Regular";
+    margin-top: 18px;
+    color: #f9d8ae93;
+}
+
+.container-2 {
+    height: 80vh;
+    width: 1200px;
+    margin: 100px 40px;
+    margin-top: 200px;
+}
+
+.container-3 h2 {
+    position: relative;
+    top: 100px;
+    left: 70px;
+    Font-family: "Romain BP Headline Regular";
+    font-size: 72px;
+    font-weight: 100;
+  
+}
+
+#plus {
+    position: relative;
+    left: 138px;
+    line-height: 0.4;
+}
+
+.disponueshmeria {
+    font-size: 12px;
+    Font-family: "Romain BP Headline Regular";
+    margin-top: 18px;
+    color: #f9d8ae93;
+    position: relative;
+    bottom: -130px;
+    left: 70px;
+    letter-spacing: 6px;
+}
+
+.description-dhoma {
+    font-size: 18px;
+    Font-family: "Romain BP Headline Regular";
+    margin-top: 18px;
+    color: #f9d8ae93;
+    position: relative;
+    top: 280px;
+    margin-left: 12px;
+}
+
+.dhoma2 {
+    position: relative;
+    top: 370px;
+}
+
+.dhoma3 {
+    position: relative;
+    top: 220px;
+}
+
+
+.deluxe-info {
+    background-color: white;
+}
+
+.deluxe-info * {
+    color:#141618;
+}
+
+.deluxe-info h2 {
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+
+.deluxe-info #plus {
+    position: relative;
+    left: 86px;
+}
+
+.deluxe-info .disponueshmeria {
+    position: relative;
+    left: 50px;
+}
+
+.penthouse-info {
+    background-color: #141618;
+    padding: 50px;
+}
+
+.penthouse-info h2 {
+    position: relative;
+    top: 35px;
+    left: 15px;
+}
+
+.penthouse-info #plus {
+    position: relative;
+    left: 146px;
+}
+
+.penthouse-info .disponueshmeria {
+    position: relative;
+    top: 60px;
+    left: 26px;
+}
+
+
+.callto-action {
+    margin: 80px 40px;
+    padding: 100px;
+    position: relative;
+    height: 100vh;
+    background-image: linear-gradient(
+            rgba(34, 34, 34, 0.6),
+            rgba(34, 34, 34, 0.6)
+          ),
+          url(img/hotel3.jpg);
+        background-size:auto;
+        margin-top: 200px;
+}
+
+.callto-action img {
+    position: absolute;
+    width: 65%;
+    right: 10px;
+    top: 70px;
+}
+
+.callto-border {
+    content: "";
+    border: 2px solid #f9d8ae ;
+    position: absolute;
+    bottom: 105px;
+    left: 430px;
+    padding: 305px 410px;
+}
+
+.callto-form {
+    box-sizing: border-box;
+    background-color: #141618;
+    color: #f9d8ae;
+    padding: 120px;
+    position: absolute;
+    left: 290px;
+    top: 150px;
+}
+
+.callto-form p, h3{
+    Font-family: "Romain BP Headline Regular";
+}
+
+.callto-form p {
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    color: #f9d8aeab;
+}
+
+.callto-form h3 {
+    margin-top: 60px;
+    margin-bottom: 65px;
+    font-size: 48px;
+    text-transform: uppercase;
+    line-height: 0;
+}
+
+.callto-form #subscribe {
+    position: relative;
+    top: 60px;
+    left: 0px;
+}
+
+.contact-wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: #141618;
+    margin-top: 150px;
+}
+.contact-wrapper .contact-items {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-flow: column    ;
+    width: 33.3333333%;
+    padding: 50px;
+}
+.contact-items h6 {
+    margin-bottom: 50px;
+    color: #71767c;
+}
+.contact-items form {
+    display: flex;
+    align-items: flex-start;
+    flex-flow: column;
+}
+.contact-items label {
+   margin-bottom: 8px;
+   font-size: 16px;
+}
+.contact-items input {
+   margin-bottom: 30px;
+   height: 50px;
+   width: 100%;
+   border-radius: 0;
+   border: 1px solid;
+   padding: 0 10px;
+   font-size: 14px;
+   color: #1416188c;
+}
+.contact-items textarea {
+    height: 200px;
+    width: 100%;
+}
+.contact-items .button-2 {
+    position: relative; 
+    left: 0px;
+    top: 185px;
+    height: 80px;
+    width: 80%;
+}
+.apartment-info  {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 12px;
+}
+.apartment-info img {
+    height: 150px;
+    width: 200px;
+    object-fit: cover;
+}
+.apartment-info div {
+    flex-direction: row;
+    margin-left: 20px;
+}
+.apartment-info div h5 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    Font-family: "Romain BP Headline Regular";
+}
+
+.apartment-info div p {
+    Font-family: "Romain BP Headline Regular";
+    color: #1416189a;
+}
+
+.container-hotels {
+    margin-top: 200px;
+}
+
+.about-us {
+    display: grid;
+    grid-template-columns: 70fr 30fr;
+    width: 1400px;
+    gap: 100px;
+    margin: 0 auto;
+    align-items: flex-start;
+    height: 90vh;
+    padding: 40px;
+}
+
+.about-us img {
+    grid-column: 1/-1;
+    width: 100%;
+}
+
+.aboutus-title {
+    Font-family: "Romain BP Headline Regular";
+    font-size: 72px;
+    color: #141618;
+    line-height: 1.1;
+}
+
+.aboutus-description {
+    color: #141618d5;
+    Font-family: "Romain BP Headline Regular";
+    letter-spacing: 1px;
+    position: relative;
+    right: -10px;
+    margin-top: 10px;
+}
+
+.shteti {
+    position: relative;
+    right: -80px;
+    margin-bottom: 50px;
+    
+}
+
+.about-us2 {
+    grid-template-columns: 30fr 70fr;
+}
+
+#vienna {
+    right: -110px;
+}
+
+#budapest {
+    right: -100px;
+}
+
+#moscow {
+    right: -150px;
+}
+
+#newyork {
+    right: -140px;
+}
+
+#cancun {
+    right: -115px;
+}
+
+#dubai {
+    right: -140px;
+}
+
+#bali {
+    right: -34px;
+}
+
+#button-vienna {
+    position: relative;
+    right: -80px;
+    top: 75px;
+}
+
+#button-budapest {
+    position: relative;
+    left: 75px;
+    top: 60px;
+}
+footer {
+    background-color: #141618;
+}
+.footer-wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: #f9d8ae;
+    margin-top: 150px;
+    padding-top: 50px;
+}
+.footer-wrapper .footer-item {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-flow: column    ;
+    width: 25%;
+    padding: 30px 50px;
+}
+.footer-item img {
+    height: 100px;
+    position: relative;
+    left: 40px;
+    margin-bottom: 30px;
+}
+.footer-item p {
+    font-size: 18px;
+}
+.footer-item ul {
+    list-style: none;
+    margin-left: 60px;
+}
+.footer-item ul li  {
+    margin-bottom: 25px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.footer-item ul li a {
+    color: #f9d8ae;
+}
+.footer-item ul li a i {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.footer-item h4 {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.footer-item form {
+    position: relative;
+    margin-top: 40px;
+}
+.footer-item input {
+   height: 50px;
+   width: 70%;
+   padding: 0 10px;
+   border: 1px solid #f9d8ae;
+}
+.footer-item button {
+   position: absolute;
+   top: 0;
+   right: 50px;
+   height: 100%;
+   width: 60px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.footer-title {
+    font-weight: 100;
+    text-transform: uppercase;
+    Font-family: "Romain BP Headline Regular";
+}
+
+#footerdescription {
+    letter-spacing: 2.5px;
+    color: #f9d8ae9d;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 14px;
+    margin-bottom: 50px;
+    
+}
+
+#footertitle {
+    position: relative;
+    left: 10px;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 100;
+    Font-family: "Romain BP Headline Regular";
+}
+
+.section-featured {
+    padding: 48px 0 32px 0;
+}
+
+.featured {
+    max-width: 1200px;
+    padding: 0 32px;
+    margin: 0 auto;
+}
+
+.featured-header {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #888;
+}
+
+.featured-logos {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.featured-logos img {
+    height: 100px;
+    filter: brightness(0);
+}
+
+#raddison {
+    padding: 20px;
+}
+
+.section-morerooms {
+    padding: 50px 0 50px 0;
+    background-color: #141618;
+    margin: 0 40px;
+    position: relative;
+    z-index: 2;
+    margin-top: 200px;
+}
+
+.morerooms {
+    max-width: 1200px;
+    padding: 0 32px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.morerooms-header {
+    Font-family: "Romain BP Headline Regular";
+    font-size: 72px;
+    text-transform: uppercase;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #f9d8ae;
+    letter-spacing: -1px;
+}
+
+.morerooms-img {
+    display: flex;
+    justify-content: space-around;
+    gap: 150px;
+}
+
+.morerooms-img img {
+    width: 400px;
+    margin-bottom: 5px;
+}
+
+
+.morerooms-img h2 {
+    Font-family: "Romain BP Headline Regular";
+    color: #f9d8ae;
+    font-weight: 100;
+    font-size: 26px;
+}
+
+.inforooms {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.morerooms-img p {
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #f9d8ae9c;
+    margin-top: 5px;
+}
+
+.check {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-top: 15px;
+}
+.card-wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: #000;
+    margin-top: 200px;
+    padding: 50px 100px;
+}
+.card-item {
+    display: flex;
+    justify-content: center;
+    flex-flow: column    ;
+    width: 33.333%;
+    margin-right: 40px;
+}
+.card-item img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 30px;
+}
+.card-content {
+    text-align: left;
+}
+
+.card-content h2 {
+    Font-family: "Romain BP Headline Regular";
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+
+.card-content p {
+    Font-family: "Romain BP Headline Regular";
+    color:#141618a2
+}
