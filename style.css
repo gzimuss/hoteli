@@ -18,7 +18,10 @@ body{
 @font-face {font-family: "Romain BP Headline Regular"; 
     src: url("//db.onlinewebfonts.com/t/7ca20c0818f170b89e9101bd2d04f470.eot"); src: url("//db.onlinewebfonts.com/t/7ca20c0818f170b89e9101bd2d04f470.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/7ca20c0818f170b89e9101bd2d04f470.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/7ca20c0818f170b89e9101bd2d04f470.woff") format("woff"),
      url("//db.onlinewebfonts.com/t/7ca20c0818f170b89e9101bd2d04f470.ttf") format("truetype"),
-     url("//db.onlinewebfonts.com/t/7ca20c0818f170b89e9101bd2d04f470.svg#Romain BP Headline Regular") format("svg"); }
+     url("//db.onlinewebfonts.com/t/7ca20c0818f170b89e9101bd2d04f470.svg#Romain BP Headline Regular") format("svg"); 
+}
+
+@font-face {font-family: "Suisse Intl"; src: url("//db.onlinewebfonts.com/t/88f10bf18a36407ef36bf30bc25a3618.eot"); src: url("//db.onlinewebfonts.com/t/88f10bf18a36407ef36bf30bc25a3618.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/88f10bf18a36407ef36bf30bc25a3618.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/88f10bf18a36407ef36bf30bc25a3618.woff") format("woff"), url("//db.onlinewebfonts.com/t/88f10bf18a36407ef36bf30bc25a3618.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/88f10bf18a36407ef36bf30bc25a3618.svg#Suisse Intl") format("svg"); }
 
 header {
     background-color: #141618;
