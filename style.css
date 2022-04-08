@@ -80,7 +80,7 @@ h1{
 }
 .nav-items a{
     color:  #f9d8ae;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
     color: #141618;
@@ -311,7 +311,7 @@ h1{
     margin-top: 18px;
     color: #f9d8ae93;
     position: relative;
-    top: 280px;
+    top: 260px;
     margin-left: 12px;
 }
 
@@ -322,7 +322,7 @@ h1{
 
 .dhoma3 {
     position: relative;
-    top: 220px;
+    top: 240px;
 }
 
 
@@ -352,18 +352,18 @@ h1{
 
 .penthouse-info {
     background-color: #141618;
-    padding: 50px;
+    padding: 10px;
 }
 
 .penthouse-info h2 {
     position: relative;
     top: 35px;
-    left: 15px;
+    left: 0px;
 }
 
 .penthouse-info #plus {
     position: relative;
-    left: 146px;
+    left: 140px;
 }
 
 .penthouse-info .disponueshmeria {
@@ -398,9 +398,9 @@ h1{
     content: "";
     border: 2px solid #f9d8ae ;
     position: absolute;
-    bottom: 105px;
-    left: 430px;
-    padding: 305px 410px;
+    bottom: 80px;
+    left: 400px;
+    padding: 300px 380px;
 }
 
 .callto-form {
@@ -410,7 +410,7 @@ h1{
     padding: 120px;
     position: absolute;
     left: 290px;
-    top: 150px;
+    top: 100px;
 }
 
 .callto-form p, h3{
@@ -519,7 +519,8 @@ h1{
 }
 
 .container-hotels {
-    margin-top: 200px;
+    margin-top: 150px;
+    overflow: hidden;
 }
 
 .about-us {
@@ -529,13 +530,13 @@ h1{
     gap: 100px;
     margin: 0 auto;
     align-items: flex-start;
-    height: 90vh;
     padding: 40px;
 }
 
 .about-us img {
     grid-column: 1/-1;
     width: 100%;
+    margin-bottom: 100px;
 }
 
 .aboutus-title {
@@ -645,6 +646,7 @@ footer {
 }
 .footer-item ul li a {
     color: #f9d8ae;
+    font-size: 12px;
 }
 .footer-item ul li a i {
     font-size: 25px;
@@ -766,7 +768,7 @@ footer {
 .morerooms-img {
     display: flex;
     justify-content: space-around;
-    gap: 150px;
+    gap: 80px;
 }
 
 .morerooms-img img {
