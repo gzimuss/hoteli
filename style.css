@@ -6,6 +6,7 @@
     font-family: "Suisse Intl";
 }
 html{
+    font-size: 62.5%;
     scroll-behavior: smooth;
     -webkit-text-size-adjust: 100%;
 }
@@ -28,7 +29,7 @@ header {
 }
 
 .container {
-    width: 800px;
+    width: 80rem;
     margin: 0 auto;
 }
 
@@ -38,12 +39,13 @@ header {
 }
 p{
     font-family: "Suisse Intl";
+    font-size: 1.6rem;
 }
 a{
     text-decoration: none;
 }
 h1{
-    font-size: 86px;
+    font-size: 8.6rem;
     position: relative;
     font-weight: 100;
     top: 100px;
@@ -53,7 +55,7 @@ h1{
     
 }
 .nav-bar{
-    height: calc(4rem + 1rem);
+    height: calc(6rem + 1rem);
     box-shadow: 0px 7px 7px 0px rgba(0,0,0,0.05);
     display: flex;
     justify-content: space-between;
@@ -69,18 +71,17 @@ h1{
 }
 .logo{
     color: #f9d8ae;
-    font-size: 1.6em;
     font-weight: 600;
-    margin-left: 30px;
+    margin-left: 3rem;
 }
 #logoS{
-    width: 100px;
-    margin-left: -400px;
+    width: 90px;
+    margin-left: -40rem;
     height: 100%;
 }
 .nav-items a{
     color:  #f9d8ae;
-    font-size: 12px;
+    font-size: 1.2rem;
     font-weight: 700;
     text-transform: uppercase;
     color: #141618;
@@ -90,7 +91,7 @@ h1{
     
 }
 .nav-items a:not(:last-child){
-    margin-right: 50px;
+    margin-right: 5rem;
 }
 .nav-items a:hover{
     color: #818181;
@@ -127,7 +128,7 @@ h1{
 
 .title p {
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 1.2rem;
     color:  #f8ecdcb7;
     position: relative;
     top: 168px;
@@ -138,7 +139,7 @@ h1{
 .button-2 {
     position: relative;
     z-index: 10;
-    padding: 15px 50px;
+    padding: 1.5rem 5rem;
     color: #141618;
     background-color: #f9d8ae;
     border: 1px solid #f9d8ae;
@@ -170,7 +171,7 @@ h1{
 .button-3 {
     position: relative;
     z-index: 10;
-    padding: 15px 50px;
+    padding: 1.5rem 5rem;
     color: #f9d8ae;
     background-color: transparent;
     border: 1px solid #f9d8ae;
@@ -195,37 +196,37 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
-    padding: 10px;
+    padding: 1rem;
     
 }
 
 .lokacioni h2 {
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 1.2rem;
     color: white;
-    margin-bottom: 10px;
-    margin-right: 6px;
+    margin-bottom: 1rem;
+    margin-right: 0.6rem;
 }
 
 .lokacioni p {
     text-align: left;
-    font-size: 12px;
-    margin-left: 20px;
+    font-size: 1.2rem;
+    margin-left: 2rem;
     letter-spacing: 1.5px;
-    padding: 5px;
+    padding: 0.5rem;
 }
 
 .lokacioni-info { 
     grid-area: 1 / 2 / 6 / 6; 
     background-color: white;
-    margin-left: 200px;
+    margin-left: 20rem;
 }
 
 
 .lokacioni-info h1 {
     font-family: "Romain BP Headline Regular";
     color: #141618;
-    font-size: 86px;
+    font-size: 8.6rem;
     position: relative;
     left: 45px;
     top: -715px;
@@ -245,37 +246,41 @@ h1{
         background-color: white;
         display: grid;
         grid-template-columns: 30fr 70fr;
-        gap: 50px;
-        width: 1400px;
-        padding: 10px;
-        margin: 200px 100px;
+        width: 140rem;
+        padding: 1rem;
+        margin: 20rem 5rem;
 }
 
 .dhoma-info {
-        border-top: 0.5px solid white;
         background-color: #141618;
-        padding: 10px;
+        padding: 4rem;
 }
 
 .dhoma-foto img {
     width: 100%;
     height: 100%;
+    padding: 5rem;
+    background-color: #141618;
 }
 
 .suite-info {
     display: flex;
     justify-content: space-between;
-    font-size: 12px;
+    font-size: 1.2rem;
     Font-family: "Romain BP Headline Regular";
-    margin-top: 18px;
+    margin-top: 1.8rem;
     color: #f9d8ae93;
 }
 
+.id-dhomes, 
+.cmimi-dhomes {
+    font-size: 1.2rem;
+}
+
 .container-2 {
-    height: 80vh;
-    width: 1200px;
-    margin: 100px 40px;
-    margin-top: 200px;
+    width: 120rem;
+    margin: 10rem 4rem;
+    margin-top: 20rem;
 }
 
 .container-3 h2 {
@@ -283,7 +288,7 @@ h1{
     top: 100px;
     left: 70px;
     Font-family: "Romain BP Headline Regular";
-    font-size: 72px;
+    font-size: 7.2rem;
     font-weight: 100;
   
 }
@@ -295,9 +300,9 @@ h1{
 }
 
 .disponueshmeria {
-    font-size: 12px;
+    font-size: 1.2rem;
     Font-family: "Romain BP Headline Regular";
-    margin-top: 18px;
+    margin-top: 1.8rem;
     color: #f9d8ae93;
     position: relative;
     bottom: -130px;
@@ -306,38 +311,38 @@ h1{
 }
 
 .description-dhoma {
-    font-size: 18px;
+    font-size: 1.4rem;
     Font-family: "Romain BP Headline Regular";
-    margin-top: 18px;
+    margin-top: 1.8rem;
     color: #f9d8ae93;
     position: relative;
     top: 260px;
-    margin-left: 12px;
+    margin-left: 1.2rem;
+    text-align: center;
 }
 
 .dhoma2 {
     position: relative;
-    top: 370px;
+    top: 350px;
 }
 
 .dhoma3 {
     position: relative;
-    top: 240px;
+    top: 290px;
 }
 
 
 .deluxe-info {
-    background-color: white;
-}
-
-.deluxe-info * {
-    color:#141618;
+    background-color: #141618;
+    padding: 4rem;
+    padding-right: 2rem;
 }
 
 .deluxe-info h2 {
     position: relative;
     top: 100px;
     left: 50px;
+    font-size: 6.4rem;
 }
 
 .deluxe-info #plus {
@@ -347,35 +352,37 @@ h1{
 
 .deluxe-info .disponueshmeria {
     position: relative;
-    left: 50px;
+    left: 30px;
 }
 
 .penthouse-info {
     background-color: #141618;
-    padding: 10px;
+    padding: 5rem;
+    padding-right: 2rem;
 }
 
 .penthouse-info h2 {
     position: relative;
-    top: 35px;
-    left: 0px;
+    top: 70px;
+    left: 25px;
+    font-size: 5.6rem;
 }
 
 .penthouse-info #plus {
     position: relative;
-    left: 140px;
+    left: 160px;
 }
 
 .penthouse-info .disponueshmeria {
     position: relative;
-    top: 60px;
-    left: 26px;
+    top: 100px;
+    left: 20px;
 }
 
 
 .callto-action {
-    margin: 80px 40px;
-    padding: 100px;
+    margin: 8rem 4rem;
+    padding: 10rem;
     position: relative;
     height: 100vh;
     background-image: linear-gradient(
@@ -384,7 +391,6 @@ h1{
           ),
           url(img/hotel3.jpg);
         background-size:auto;
-        margin-top: 200px;
 }
 
 .callto-action img {
@@ -400,14 +406,14 @@ h1{
     position: absolute;
     bottom: 80px;
     left: 400px;
-    padding: 300px 380px;
+    padding: 30rem 38rem;
 }
 
 .callto-form {
     box-sizing: border-box;
     background-color: #141618;
     color: #f9d8ae;
-    padding: 120px;
+    padding: 12rem;
     position: absolute;
     left: 290px;
     top: 100px;
@@ -419,16 +425,16 @@ h1{
 
 .callto-form p {
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 1.2rem;
     letter-spacing: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
     color: #f9d8aeab;
 }
 
 .callto-form h3 {
-    margin-top: 60px;
-    margin-bottom: 65px;
-    font-size: 48px;
+    margin-top: 6rem;
+    margin-bottom: 6.5rem;
+    font-size: 4.8rem;
     text-transform: uppercase;
     line-height: 0;
 }
@@ -446,7 +452,7 @@ h1{
     justify-content: center;
     align-items: flex-start;
     color: #141618;
-    margin-top: 150px;
+    margin-top: 10rem;
 }
 .contact-wrapper .contact-items {
     height: 100%;
@@ -454,11 +460,12 @@ h1{
     justify-content: center;
     flex-flow: column    ;
     width: 33.3333333%;
-    padding: 50px;
+    padding: 5rem;
 }
 .contact-items h6 {
-    margin-bottom: 50px;
+    margin-bottom: 5rem;
     color: #71767c;
+    font-size: 1rem;
 }
 .contact-items form {
     display: flex;
@@ -466,37 +473,37 @@ h1{
     flex-flow: column;
 }
 .contact-items label {
-   margin-bottom: 8px;
-   font-size: 16px;
+   margin-bottom: 0.8rem;
+   font-size: 1.6rem;
 }
 .contact-items input {
-   margin-bottom: 30px;
-   height: 50px;
+   margin-bottom: 3rem;
+   height: 5rem;
    width: 100%;
    border-radius: 0;
    border: 1px solid;
-   padding: 0 10px;
-   font-size: 14px;
+   padding: 0 1rem;
+   font-size: 1.4rem;
    color: #1416188c;
 }
 .contact-items textarea {
-    height: 200px;
+    height: 20rem;
     width: 100%;
 }
 .contact-items .button-2 {
     position: relative; 
     left: 0px;
     top: 185px;
-    height: 80px;
+    height: 8rem;
     width: 80%;
 }
 .apartment-info  {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-top: 12px;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-top: 1.2rem;
 }
 .apartment-info img {
     height: 150px;
@@ -505,11 +512,11 @@ h1{
 }
 .apartment-info div {
     flex-direction: row;
-    margin-left: 20px;
+    margin-left: 2rem;
 }
 .apartment-info div h5 {
-    font-size: 20px;
-    margin-bottom: 10px;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
     Font-family: "Romain BP Headline Regular";
 }
 
@@ -519,46 +526,46 @@ h1{
 }
 
 .container-hotels {
-    margin-top: 150px;
+    margin-top: 15rem;
     overflow: hidden;
 }
 
 .about-us {
     display: grid;
     grid-template-columns: 70fr 30fr;
-    width: 1400px;
-    gap: 100px;
+    width: 140rem;
+    gap: 10rem;
     margin: 0 auto;
     align-items: flex-start;
-    padding: 40px;
+    padding: 4rem;
 }
 
 .about-us img {
     grid-column: 1/-1;
     width: 100%;
-    margin-bottom: 100px;
+    margin-bottom: 10rem;
 }
 
 .aboutus-title {
     Font-family: "Romain BP Headline Regular";
-    font-size: 72px;
+    font-size: 7.2rem;
     color: #141618;
     line-height: 1.1;
 }
 
 .aboutus-description {
-    color: #141618d5;
+    color: #818181;
     Font-family: "Romain BP Headline Regular";
     letter-spacing: 1px;
     position: relative;
     right: -10px;
-    margin-top: 10px;
+    margin-top: 1rem;
 }
 
 .shteti {
     position: relative;
     right: -80px;
-    margin-bottom: 50px;
+    margin-bottom: 5rem;
     
 }
 
@@ -615,8 +622,8 @@ footer {
     justify-content: center;
     align-items: flex-start;
     color: #f9d8ae;
-    margin-top: 150px;
-    padding-top: 50px;
+    margin-top: 15rem;
+    padding-top: 5rem;
 }
 .footer-wrapper .footer-item {
     height: 100%;
@@ -624,46 +631,46 @@ footer {
     justify-content: center;
     flex-flow: column    ;
     width: 25%;
-    padding: 30px 50px;
+    padding: 3rem 5rem;
 }
 .footer-item img {
     height: 100px;
     position: relative;
     left: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
 }
 .footer-item p {
-    font-size: 18px;
+    font-size: 1.8rem;
 }
 .footer-item ul {
     list-style: none;
-    margin-left: 60px;
+    margin-left: 6rem;
 }
 .footer-item ul li  {
-    margin-bottom: 25px;
-    font-size: 18px;
+    margin-bottom: 2.5rem;
+    font-size: 1.8rem;
     text-transform: uppercase;
 }
 .footer-item ul li a {
     color: #f9d8ae;
-    font-size: 12px;
+    font-size: 1.2rem;
 }
 .footer-item ul li a i {
-    font-size: 25px;
-    margin-bottom: 10px;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
 }
 .footer-item h4 {
-    font-size: 25px;
-    margin-bottom: 5px;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
 }
 .footer-item form {
     position: relative;
-    margin-top: 40px;
+    margin-top: 4rem;
 }
 .footer-item input {
    height: 50px;
    width: 70%;
-   padding: 0 10px;
+   padding: 0 1rem;
    border: 1px solid #f9d8ae;
 }
 .footer-item button {
@@ -687,38 +694,38 @@ footer {
     letter-spacing: 2.5px;
     color: #f9d8ae9d;
     text-transform: uppercase;
-    font-size: 12px;
-    margin-top: 14px;
-    margin-bottom: 50px;
+    font-size: 1.2rem;
+    margin-top: 1.4rem;
+    margin-bottom: 5rem;
     
 }
 
 #footertitle {
     position: relative;
     left: 10px;
-    font-size: 24px;
+    font-size: 2.4rem;
     text-transform: uppercase;
     font-weight: 100;
     Font-family: "Romain BP Headline Regular";
 }
 
 .section-featured {
-    padding: 48px 0 32px 0;
+    padding: 4.8rem 0 3.2rem 0;
 }
 
 .featured {
-    max-width: 1200px;
-    padding: 0 32px;
+    max-width: 120rem;
+    padding: 0 3.2rem;
     margin: 0 auto;
 }
 
 .featured-header {
-    font-size: 14px;
+    font-size: 1.4rem;
     text-transform: uppercase;
     letter-spacing: 0.75px;
     font-weight: 500;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 5rem;
     color: #888;
 }
 
@@ -734,21 +741,21 @@ footer {
 }
 
 #raddison {
-    padding: 20px;
+    padding: 2rem;
 }
 
 .section-morerooms {
-    padding: 50px 0 50px 0;
+    padding: 5rem 0 5rem 0;
     background-color: #141618;
-    margin: 0 40px;
+    margin: 0 4rem;
     position: relative;
     z-index: 2;
-    margin-top: 200px;
+    margin-top: 20rem;
 }
 
 .morerooms {
-    max-width: 1200px;
-    padding: 0 32px;
+    max-width: 120rem;
+    padding: 0 3.2rem;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -756,11 +763,11 @@ footer {
 
 .morerooms-header {
     Font-family: "Romain BP Headline Regular";
-    font-size: 72px;
+    font-size: 7.2rem;
     text-transform: uppercase;
     font-weight: 100;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 4rem;
     color: #f9d8ae;
     letter-spacing: -1px;
 }
@@ -768,12 +775,12 @@ footer {
 .morerooms-img {
     display: flex;
     justify-content: space-around;
-    gap: 80px;
+    gap: 8rem;
 }
 
 .morerooms-img img {
     width: 400px;
-    margin-bottom: 5px;
+    margin-bottom: 0.5rem;
 }
 
 
@@ -781,29 +788,29 @@ footer {
     Font-family: "Romain BP Headline Regular";
     color: #f9d8ae;
     font-weight: 100;
-    font-size: 26px;
+    font-size: 2.6rem;
 }
 
 .inforooms {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 10px;
+    padding-top: 1rem;
 }
 
 .morerooms-img p {
     text-align: right;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 1.2rem;
     color: #f9d8ae9c;
-    margin-top: 5px;
+    margin-top: 0.5rem;
 }
 
 .check {
     position: relative;
     top: 0px;
     left: 0px;
-    margin-top: 15px;
+    margin-top: 1.5rem;
 }
 .card-wrapper {
     height: 100%;
@@ -812,21 +819,21 @@ footer {
     justify-content: center;
     align-items: flex-start;
     color: #000;
-    margin-top: 200px;
-    padding: 50px 100px;
+    margin-top: 20rem;
+    padding: 5rem 10rem;
 }
 .card-item {
     display: flex;
     justify-content: center;
     flex-flow: column    ;
     width: 33.333%;
-    margin-right: 40px;
+    margin-right: 4rem;
 }
 .card-item img {
     height: 300px;
     width: 100%;
     object-fit: cover;
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
 }
 .card-content {
     text-align: left;
@@ -835,8 +842,8 @@ footer {
 .card-content h2 {
     Font-family: "Romain BP Headline Regular";
     font-weight: 400;
-    margin-bottom: 10px;
-    font-size: 32px;
+    margin-bottom: 1rem;
+    font-size: 3.2rem;
 }
 
 .card-content p {
