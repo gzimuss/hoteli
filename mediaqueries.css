@@ -60,6 +60,9 @@
 }
 
 @media (max-width:1440px) {
+    .home img {
+        width: 85%;
+    }
     .morerooms-img {
         gap: 4rem;
     }
@@ -96,3 +99,35 @@
         padding: 2rem;
     }
 }
+
+@media (max-width:1367px) {
+    .home img {
+        width: 80%;
+    }
+
+    .morerooms-img img {
+        width: 366px;
+    }
+
+    .description-dhoma {
+        top: 210px;
+    }
+
+    .deluxe-info {
+        padding-right: 0rem;
+    }
+
+    .dhoma2 {
+        top: 300px;
+    }
+
+    .penthouse-info {
+        padding-right: 0rem;
+    }
+
+    .dhoma3 {
+        top: 245px;
+    }
+}
+
+
