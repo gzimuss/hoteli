@@ -246,7 +246,6 @@ h1{
         background-color: white;
         display: grid;
         grid-template-columns: 30fr 70fr;
-        width: 140rem;
         padding: 1rem;
         margin: 20rem 5rem;
 }
@@ -533,7 +532,6 @@ h1{
 .about-us {
     display: grid;
     grid-template-columns: 70fr 30fr;
-    width: 140rem;
     gap: 10rem;
     margin: 0 auto;
     align-items: flex-start;

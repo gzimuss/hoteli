@@ -1,4 +1,5 @@
-@media (min-width:1400px) {
+@media (min-width:1536px) {
+    
     .morerooms-img {
         display: flex;
         padding: 0 6.4rem;
@@ -15,7 +16,16 @@
 
     .callto-action {
         background-size: cover;
-        height: 56vh;
+    }
+
+    .callto-border {
+        bottom: 80px;
+        left: 400px;
+    }
+
+    .callto-form {
+        left: 300px;
+        top: 100px;
     }
 
     .featured-logos img {
@@ -23,24 +33,7 @@
     }
     
     .container-3 {
-        margin: 20rem 0rem;
         height: auto;
-    }
-
-    .dhoma-foto img {
-        height: auto;
-    }
-
-    .dhoma-info {
-        height: 51.35vh;
-    }
-
-    .deluxe-info {
-        height: 56.9vh;
-    }
-
-    .penthouse-info {
-        height: 51.2vh;
     }
 
     .about-us {
@@ -62,6 +55,44 @@
     .contact-wrapper .contact-items {
         width: 100%;
         gap: 2rem;
+        padding: 2rem;
+    }
+}
+
+@media (max-width:1440px) {
+    .morerooms-img {
+        gap: 4rem;
+    }
+
+    .container-3 {
+        height: auto;
+    }
+
+    .deluxe-info {
+        padding: 2rem;
+    }
+    
+    .dl-info {
+        padding-top: 3rem !important;
+    }
+
+    .penthouse-info {
+        padding: 2rem;
+    }
+
+    .pt-info {
+        padding-top: 2rem !important;
+    }
+
+    .about-us {
+        grid-template-columns: 65fr 35fr;
+    }
+
+    .about-us2 {
+        grid-template-columns: 35fr 65fr;
+    }
+
+    .contact-wrapper .contact-items {
         padding: 2rem;
     }
 }
