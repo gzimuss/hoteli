@@ -130,4 +130,240 @@
     }
 }
 
+@media (max-width:1280px) {
 
+    html {
+        font-size: 56.25%;
+    }
+
+    .home img {
+        width: 70%;
+    }
+    
+    .morerooms-img img {
+        width: 340px;
+    }
+
+    .callto-border {
+        bottom: 45px;
+    }
+
+    .footer-item input {
+        width: 100%;
+    }
+
+    .footer-item button {
+        right: 0px;
+    }
+
+    #footertitle {
+        font-size: 2rem;
+    }
+
+    .check {
+        padding: 1rem 3rem;
+    }
+}
+
+
+@media (max-width:1200px) {
+    html {
+        font-size: 50%;
+    }
+    
+    html,
+    body{
+        width:100%;
+        overflow-x:hidden;
+    }
+
+    .morerooms-img {
+        gap: 8rem;
+    }
+
+    .morerooms-img img {
+        width: 300px;
+    }
+
+    .callto-border {
+        bottom: 100px;
+        padding: 30rem 35rem;
+    }
+}
+
+@media (max-width:1100px) {
+   
+    .morerooms-img img {
+        width: 270px;
+    }
+
+    .check {
+        padding: 1rem 2rem;
+    }
+
+    .callto-action {
+        margin: 10rem 0rem;
+    }
+
+    .featured-logos img {
+        height: 11rem;
+    }
+
+    #raddison {
+        padding: 3rem;
+    }
+
+    .footer-wrapper {
+        margin-top: 10rem;
+    }
+    
+    .footer-item button {
+        right: -15px;
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width:1056px) {
+    .home img {
+        width: 60%;
+        top: -50px;
+    }
+
+    .callto-form {
+        left: 200px;
+    }
+
+    .callto-border {
+        left: 300px;   
+    }
+}
+
+@media (max-width:1002px) {
+    html {
+        font-size: 43.75%;
+    }
+
+    .container {
+        height: 80vh;
+    }
+    .home img {
+        display: none;
+    }
+
+    h1 {
+        right: -100px;
+    }
+
+    .title p {
+        left: 100px;
+    }
+
+    .button-2 {
+        right: -130px;
+    }
+
+    .button-3 {
+        right: -150px;
+    }
+
+    .morerooms-img img {
+        width: 250px;
+    }
+
+    .callto-border {
+        bottom: 160px;
+    }
+
+    .featured-logos img {
+        height: 13rem;
+    }
+}
+
+@media (max-width:918px) {
+    .morerooms-img img {
+        width: 200px;
+    }
+   
+    .inforooms {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .check {
+        padding: 1rem 5rem;
+    }
+
+    .lokacioni-info h1 {
+        left: -50px;
+    }
+
+    .lokacioni-info p {
+        left: -50px;
+    }
+    .card-item img {
+        width: auto;
+    }
+
+    .callto-form {
+        left: 100px;
+    }
+
+    .callto-border {
+        left: 200px;
+    }
+}
+
+
+@media (max-width:768px) {
+    html {
+        font-size: 37.5%;
+    }
+
+    .morerooms-img {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .card-wrapper {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 6rem;
+        padding: 0;
+    }
+
+    .lokacioni {
+        padding: 4rem 55rem;
+        align-items: center;
+    }
+
+    .lokacioni h2 {
+        font-size: 1.8rem;
+    }
+
+    .lokacioni p {
+        font-size: 1.4rem;
+    }
+
+    .lokacioni-info {
+        display: none;
+    }
+
+    .callto-action {
+        height: 80vh;
+    }
+
+    .callto-border {
+        bottom: 85px;
+    }
+    
+    .callto-form #subscribe {
+        top: 40px;
+    }
+}
+
+@media (max-width:768px) {
+    
+}
